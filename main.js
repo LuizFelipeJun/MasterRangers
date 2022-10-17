@@ -33,26 +33,29 @@ console.log(keyPressed);
 		blockY = 40;
 		newImage("rr1.png");
 	}
-	if(keyPressed == '86')
-	{
+	if(keyPressed == '86') {
 		blockX = 200;
-		// enviar ranger verde
+		blockY = 40;
+		newImage("gr.png");
 	}
 	
 	if(keyPressed == '65')
 	{
-		blockX =350;
-		// enviar ranger amarelo
+		blockX = 350;
+		blockY = 40
+		newImage("yr.png");
 	}
 	if(keyPressed == '82')
 	{
 		blockX = 600;
-		// enviar ranger rosa
+		blockY = 40
+		newImage("pr.png");
 	}
 	if(keyPressed == '73')
 	{
 		blockX = 700;
-	// enviar ranger índigo
+		blockY = 40
+		newImage("br.png");
 	}
 	
 }
